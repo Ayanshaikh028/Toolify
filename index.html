@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tooly - All-in-One Toolkit</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tooly - All-in-One Utility Toolkit</h1>
+    </header>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="text">Text</button>
+      <button class="tab" data-tab="image">Image</button>
+      <button class="tab" data-tab="calc">Calc</button>
+      <button class="tab" data-tab="convert">Convert</button>
+      <button class="tab" data-tab="dev">Dev</button>
+      <button class="tab" data-tab="more">More</button>
+    </div>
+
+    <div class="tab-content" id="text">
+      <h2>Text Tools</h2>
+      <div class="tools-grid">
+        <div class="tool"><img src="icons/text-cases.svg" alt=""><p>Text Cases</p></div>
+        <div class="tool"><img src="icons/find-replace.svg" alt=""><p>Find & Replace</p></div>
+        <div class="tool"><img src="icons/short-lines.svg" alt=""><p>Short Lines</p></div>
+        <div class="tool"><img src="icons/text-counter.svg" alt=""><p>Text Counter</p></div>
+        <div class="tool"><img src="icons/repeat-text.svg" alt=""><p>Repeat Text</p></div>
+      </div>
+    </div>
+
+    <div class="tab-content hidden" id="image">
+      <h2>Image Tools</h2>
+      <div class="tools-grid">
+        <div class="tool"><img src="icons/resize.svg" alt=""><p>Resize Image</p></div>
+        <div class="tool"><img src="icons/crop.svg" alt=""><p>Crop Image</p></div>
+        <div class="tool"><img src="icons/rounded.svg" alt=""><p>Rounded Image</p></div>
+        <div class="tool"><img src="icons/gradient.svg" alt=""><p>Gradient Wallpaper</p></div>
+        <div class="tool"><img src="icons/flip.svg" alt=""><p>Flip Image</p></div>
+      </div>
+    </div>
+
+    <!-- Add calc, convert, dev, more sections here similarly -->
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
